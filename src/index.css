@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.hero {
+  background: aquamarine;
+
+}
+
+.hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(6, 186, 192);
+  color:mintcream;
+  padding: 40px;
+  margin: 16px 0;
+  border-radius: 10%;
+}
+
+.card h1 {
+  font-size: 50px;
+}
+
+.card a {
+  text-decoration: none;
+  display: inline-block;
+  background: rgb(4, 153, 158);
+  color: antiquewhite;
+  padding: 10px;
+  margin: 15px 0 0;
+  transition: all 300ms ease-in-out;
+  border-radius: 9%;
+}
+
+.card a:hover {
+  background: rgb(8, 133, 150);
+}
+
+.full {
+  background: aquamarine;
+}
+
+.full .container {
+  max-width: 500px;
+}
+
+.fullcard {
+  width: 100%;
+  height: 500px;
+  color: mintcream;
+  display: flex;
+  flex-direction: column;
+  background: rgb(6, 186, 192);
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.fullcard h1 {
+  font-size: 50px;
+}
