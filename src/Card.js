@@ -7,9 +7,9 @@ const Card = ({data}) => {
         <>
         {data.map((card,index) => (
             <div key = {index} className = "card">
-                <h1>{card.title} </h1>
-                <p>{card.description}</p>
-                <Link to ={`/cards/${card.title}`}> View more</Link>
+                <h1>{card.name} </h1>
+                <p>@{card.username}</p>
+                <Link to ={`/cards/${card.username}`}> View more</Link>
             </div>
         ))}
         </>
